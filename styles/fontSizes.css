@@ -1,0 +1,68 @@
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.main-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: -1.15%;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+
+.section-subtitle {
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: -0.15%;
+  color: #586d8d;
+  margin-bottom: 1rem;
+}
+
+.section-text {
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: -0.85%;
+}
+
+.section-text-bigger {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: -0.85%;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+
+  font-size: 24px;
+  letter-spacing: -1.15%;
+}
+
+.footer-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer-logo-text {
+  font-family: "Scada", sans-serif;
+  font-size: 56px;
+}
+
+.footer-credits {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+}
