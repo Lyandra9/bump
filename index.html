@@ -47,16 +47,16 @@
       <div class="header-nav-div">
         <ul class="header-links-ul">
           <li>
-            <a href=""> <p>Sobre</p></a>
+            <a href="#intro"> <p>Sobre</p></a>
           </li>
           <li>
-            <a href=""> <p>Serviços</p></a>
+            <a href="#about"> <p>Serviços</p></a>
           </li>
           <li>
-            <a href=""> <p>Parceiros</p></a>
+            <a href="#products"> <p>Parceiros</p></a>
           </li>
           <li>
-            <a href=""> <p>Contato</p></a>
+            <a href="#formSection"> <p>Contato</p></a>
           </li>
         </ul>
       </div>
@@ -166,7 +166,7 @@
     </section>
 
     <!-- PRODUCTS -->
-    <section class="default-container-smaller">
+    <section class="default-container-smaller" id="products">
       <div class="products__text">
         <h2 class="poppins-text-base section-title blue-text">
           Confira nossos produtos e soluços
@@ -220,7 +220,7 @@
     </section>
 
     <!-- FORM -->
-    <section class="no-vertical-padding-container">
+    <section class="no-vertical-padding-container" id="formSection">
       <img src="./public/form-img.png" alt="" />
       <div class="form-container">
         <h2>Gostou do que viu?</h2>
@@ -229,10 +229,13 @@
           o quanto antes!
         </p>
         <form id="form" action="">
-          <input type="text" />
-          <input type="number" />
-          <input type="email" />
-          <input type="textarea" />
+          <input type="text" placeholder="Nome" />
+          <input type="number" placeholder="Telefone" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Mensagem"> </textarea>
+          <button class="button-primary">
+            <p class="white-text">Enviar</p>
+          </button>
         </form>
       </div>
     </section>
