@@ -1,0 +1,35 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  row-gap: 24px;
+  justify-content: center;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-container p {
+  font-size: 18px;
+  letter-spacing: -1.15%;
+  font-weight: 400;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#form input,
+#form textarea {
+  border: 2px solid #0f2952;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}

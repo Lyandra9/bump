@@ -1,0 +1,21 @@
+.about__clients {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5f0ff;
+  flex: 0.4;
+  padding: 7rem 3.5rem;
+}
+
+.about__products {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 7rem 0;
+  column-gap: 3.5rem;
+  row-gap: 2rem;
+  text-align: left;
+}
+
+.products-grid-item {
+  max-width: 350px;
+}

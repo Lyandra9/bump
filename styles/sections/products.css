@@ -1,0 +1,8 @@
+.products__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 7.125rem;
+  row-gap: 2.625rem;
+  text-align: left;
+  padding-top: 3rem;
+}

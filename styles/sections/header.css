@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 12.5rem;
+  border-bottom: 1px solid #0f2952;
+}
+
+.logo-div p {
+  font-family: "Scada", sans-serif;
+  font-size: 24px;
+  color: #275aa9;
+}
+
+.logo-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 0.5rem;
+  flex: 0.5;
+}
+.header-nav-div {
+  flex: 0.4;
+}
+
+.header-links-ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.header-links-ul p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #0f2952;
+}
